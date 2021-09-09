@@ -1,0 +1,83 @@
+baseURL = "https://empun.github.io/"
+languageCode = "en-us"
+title = "EMPUN | A DEV BLOG 🐱"
+theme = "PaperMod"
+disqusShortname = "empun"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Archives"
+url = "archives/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Github"
+url = "https://github.com/empun"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+defaultTheme = "auto"
+comments = true
+
+  [params.homeInfoParams]
+  Title = "Hai semua 👋"
+  Content = "Selamat datang teman online. - Disini tertulis tutorial juga keluh kesah seorang Junior Android Developer - Sedang belajar Nodejs - Semoga bermanfaat 🔥 - [Github](https://github.com/empun/)."
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true

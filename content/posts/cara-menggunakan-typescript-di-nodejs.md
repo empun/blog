@@ -3,6 +3,10 @@ title: "Cara Menggunakan Typescript di NodeJS"
 date: 2021-09-09T16:58:36+07:00
 draft: false
 author: 'Empun'
+categories:
+- Nodejs
+- Javascript
+description: Menggunakan Typescript di NodeJS
 ---
 
 ## Intro
