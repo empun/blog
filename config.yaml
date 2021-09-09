@@ -1,0 +1,96 @@
+baseURL: "https://empun.github.io/"
+languageCode: "en-us"
+title: "EMPUN | A DEV BLOG 🐱"
+theme: "PaperMod"
+
+disqusShortname: empun
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Categories
+                  url: categories/
+                  weight: 10
+                - name: Github
+                  url: https://github.com/empun
+                  weight: 10
+                - name: Search
+                  url: search/
+                  weight: 10
+                  
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+    env: production
+    homeInfoParams:
+        Title: Hai semua 👋
+        Content: Disini tertulis perjalanan seorang Junior Mobile Apss Developer. 🔥 | Currently learning NodeJS. 
+
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    defaultTheme: auto
+
+    comments: true
+
+    homeInfoParams:
+        Title: "Hai semua 👋"
+        Content: >
+            Selamat datang teman online.
+            - Disini tertulis tutorial juga keluh kesah seorang Junior Android Developer
+            - Sedang belajar Nodejs
+            - Semoga bermanfaat 🔥
+            - [Github](https://github.com/nanxiaobei/hugo-paper).
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
